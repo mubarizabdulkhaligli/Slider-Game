@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PriusGame</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="game-zone">
+            <img src="/images/prius.png" alt="" id="prius">
+            <div class="uber-park">
+                <h3>Uber Park</h3>
+            </div>
+            <div id="game-over">
+                <h1>Game Over</h1>
+              </div>
+            <button id="up" class="circle-button" onclick="moveUp()">Up</button>
+            <button id="down" class="circle-button" onclick="moveDown()">Down</button>
+            <button id="left" class="circle-button" onclick="moveLeft()">Left</button>
+            <button id="right" class="circle-button" onclick="moveRight">Right</button>
+        </div>        
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.game-zone {
+  position: relative;
+  background-color: #d5cece;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 5px;
+  width: 100%;
+  height: 800px;
+  max-height: 100vh;
+}
+.game-zone #prius {
+  position: absolute;
+  top: -118px;
+  left: -65px;
+  width: 400px;
+  transition: top 0.3s ease, left 0.3s ease;
+}
+.game-zone .circle-button {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0px 0px 6px 5px;
+  color: white;
+  padding: 25px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.game-zone .circle-button:hover {
+  background-color: white;
+  color: black;
+}
+.game-zone #up {
+  bottom: 152px;
+  left: 116px;
+}
+.game-zone #down {
+  bottom: 39px;
+  left: 116px;
+}
+.game-zone #left {
+  bottom: 95px;
+  left: 13px;
+}
+.game-zone #right {
+  bottom: 95px;
+  left: 219px;
+}
+.game-zone .hover {
+  background-color: white;
+  color: black;
+}
+.game-zone .uber-park {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 260px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-zone #game-over {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.game-zone #game-over h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
